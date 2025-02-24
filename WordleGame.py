@@ -2,7 +2,7 @@ import random #Randomizes the words in the given categories
 
 #Main Menu
 def menu_choice():
-    print("WELCOME TO WORDLE!\n\nRules:\n\nEach guess must be a valid five or seven-letter word.\nYour input must be in UPPERCASE LETTER only.\nIf the tile 🟩, the letter is in the correct spot.\nIf the tile 🟨, the letter is in the word, but it is not in the correct spot.\nIf the tile 🟥, the letter is not in the word. \n")
+    print("WELCOME TO WORDLE!\n\nRules:\n\nEach guess must be a valid five to seven-letter word.\nIf the tile shows 🟩, the letter is in the correct spot.\nIf the tile shows 🟨, the letter is in the word, but it is not in the correct spot.\nIf the tile shows 🟥, the letter is not in the word. \n")
     print("1. Play\n2. Exit")
 
     user_input = int(input("\nHello there! Please choose an option: "))
