@@ -5,6 +5,3 @@ user_num2 = int(input("Enter your second number: "))
 
 if user_num1 == user_num2:
     print("Equal")
-    
-else:
-    print("Not Equal")
